@@ -10,7 +10,7 @@ public class Elastic {
     /**
      * - ELASTIC: Creates new Worker pool as needed and reuses the idle ones
      * - ELASTIC: Spawns threads on-demand without a limit (BE CAREFUL!)
-     * - BOUNDED ELASTIC:Creates a new Worker pool with limited size
+     * - BOUNDED ELASTIC: Creates a new Worker pool with limited size
      * - BOUNDED ELASTIC: Reuses the iddle Workers from the pool
      * - Good for more long-lived tasks (eg. blocking IO tasks)
      * - Idle threads (default 60s) are disposed of
