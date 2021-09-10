@@ -8,3 +8,4 @@ A short PoC with Spring Webflux Schedulers API to learn about it and it's differ
 - Control over threads
 - Spawn Workers (wich can be threads)
 - Had different flavors / implementations
+- Need an operator to be executed
