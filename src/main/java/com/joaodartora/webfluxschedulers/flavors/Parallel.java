@@ -9,13 +9,6 @@ import java.util.stream.IntStream;
 
 public class Parallel {
 
-    /**
-     * - Create a specific number of threads for that Scheduler
-     * - It can execute N such tasks in parallel
-     * - By default, N == number of CPU’s
-     * - Good for CPU-intensive but short-lived tasks
-     */
-
     private static final Logger logger = LoggerFactory.getLogger(Single.class);
     private static final Integer DELAY_SECONDS = 1;
 
